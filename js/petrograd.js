@@ -29,6 +29,16 @@ function visProdukt(produkt) {
 
     klon.querySelector(".data_billede").src = "/billeder/small/" + produkt.billede + "-sm.jpg";
 
+    if (produkt.udsolgt == false) {
+        //produktete re ikke udsolgt
+        // udsolgttekst skal fjernes
+
+        var udsolgttekst = klon.querySelector(".udsolgttekst");
+        udsolgttekst.parentNode.removeChild(udsolgttekst);
+    } else {
+        klon.querySelector(".pris").classList.add("udsolgt");
+    }
+
     // append klon til .produkt_liste
     document.querySelector(".produktliste").appendChild(klon);
 }
