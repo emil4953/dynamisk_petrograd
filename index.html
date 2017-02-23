@@ -112,33 +112,30 @@
             </div>
         </section>
 
-        <section class="row hovedretter col-md-12">
+        <div class="row produktliste">
+            <!-- her skal produkter ligges ind -->
             <h3>Hovedretter</h3>
 
             <!-- hovedret 1 -->
             <template id="produkt_template">
                 <div class="col-md-4">
                     <img class="img-responsive data_billede" src="billeder/medium/moldaviskfiskesuppe-md.jpg" alt="moldavisk fiskesuppe">
+
+
                     <h3 class="data_navn">DATA_NAVN</h3>
-                    <h4 class="pris">Pris:<span class="data_pris">DATA_PRIS</span></h4>
+
+
+                    <h4 class="pris">Pris: <span class="data_pris">DATA_PRIS</span></h4>
                     <!-- TODO: sæt udsolgt class ved udsolgt -->
                     <!-- sæt rabat class ved rabat -->
-                    <h4 class="rabatpris">Pris:<span class="data_rabatpris">DATA_RABATPRIS</span></h4>
+                    <h4 class="rabatpris">Pris: <span class="data_rabatpris">DATA_RABATPRIS</span></h4>
                     <!-- skal kun vises ved rabat -->
                     <h5 class="udsolgttekst">Denne ret er desværre udsolgt</h5>
                     <!-- denne tekst skal kun vises ved udsolgte produkter -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalhovedret1">Se detaljer</button>
                 </div>
             </template>
-
-            <!-- hovedret 2 -->
-            <div class="col-md-4">
-                <img class="img-responsive" src="billeder/medium/bulgarskbondesuppe-md.jpg" alt="bulgarsk bondesuppe">
-                <h3>Bulgarsk bondesuppe</h3>
-                <h4>99,-</h4>
-            </div>
-
-        </section>
+        </div>
     </div>
 
     <div class="container-fluid" id="footer">
@@ -157,6 +154,15 @@
             </div>
         </footer>
     </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap -->
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/petrograd.js"></script>
 
 </body>
 
