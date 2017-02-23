@@ -2,11 +2,20 @@ html {
     margin: 0;
     padding: 0;
 }
+nav {
+    background-color: #ffffff !important;
+    border: none !important;
+    border-style: none !important;
+}
 h1 {
     font-size: 6.5vw;
 }
 h5 {
     line-height: 2em;
+}
+button.knap {
+    background-color: #E4C8C5 !important;
+    border-color: #BBC2BD !important;
 }
 .forside {
     margin-left: 0.1vw !important;
@@ -48,6 +57,15 @@ h5 {
     text-align: center;
     font-size: 4.8vw;
 }
+.produktliste .pris {
+    color: indianred;
+}
+.produktliste .rabatpris {
+    color: forestgreen;
+}
+.rabat {
+    text-decoration: line-through;
+}
 ul.img-list {
     margin: 0;
     padding: 0;
@@ -85,11 +103,11 @@ span.text-content {
     color: white;
     cursor: pointer;
     display: table;
-    height: 174.5px;
+    height: 150px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 260px;
+    width: 226px;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
