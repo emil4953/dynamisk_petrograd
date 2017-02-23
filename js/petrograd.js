@@ -27,6 +27,8 @@ function visProdukt(produkt) {
 
     klon.querySelector(".data_rabatpris").innerHTML = rabatpris;
 
+    klon.querySelector(".data_billede").src = "/billeder/small/" + produkt.billede + "-sm.jpg";
+
     // append klon til .produkt_liste
     document.querySelector(".produktliste").appendChild(klon);
 }
