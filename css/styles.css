@@ -93,8 +93,6 @@ button.knap {
 }
 .produktliste h2 {
     font-size: 2vw;
-    display: inline-block;
-    border: 1.5px solid;
     margin-right: 1.5vw;
     margin-left: 1.5vw;
 }
