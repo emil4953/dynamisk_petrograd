@@ -2,20 +2,49 @@ html {
     margin: 0;
     padding: 0;
 }
+.overskrift h2 {
+    font-family: "Basic Title Font";
+    margin-left: 23vw;
+    font-size: 2.4vw;
+    text-align: left;
+}
+.overskrift h4 {
+    font-family: "Basic Title Font";
+    font-size: 2.28vw;
+    text-align: right;
+    margin-top: -4.65vw;
+    margin-right: 19.8vw;
+}
+.overskrift h3 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Dekko";
+    margin-top: -5vw;
+}
+nav ul {
+    margin-right: 27vw !important;
+}
+nav li:hoover {
+    border-bottom: 2px solid #F117B4;
+    text-decoration: none;
+}
 nav {
     background-color: #ffffff !important;
-    border: none !important;
-    border-style: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: double !important;
+    border-bottom: double !important;
 }
 h1 {
-    font-size: 6.5vw;
+    font-size: 4vw;
 }
 h5 {
     line-height: 2em;
 }
 button.knap {
-    background-color: #E4C8C5 !important;
-    border-color: #BBC2BD !important;
+    background-color: #ffffff !important;
+    color: black;
+    border-color: #000000 !important;
 }
 .forside {
     margin-left: 0.1vw !important;
@@ -23,8 +52,9 @@ button.knap {
     border-top-style: solid;
 }
 .forside img {
-    width: 100%;
-    margin-top: 13.5vw;
+    width: 90%;
+    margin-top: 7vw;
+    margin-left: 3vw;
 }
 .omos {
     border-style: double;
@@ -38,6 +68,7 @@ button.knap {
     margin-top: 1.5vw;
     background-color: #DDDAD5;
     text-align: center;
+    margin-bottom: 2vw;
 }
 .menukort img {
     width: 100%;
@@ -55,7 +86,21 @@ button.knap {
 }
 .billeder h4 {
     text-align: center;
-    font-size: 4.8vw;
+    font-size: 4vw;
+}
+.produktliste a:hover {
+    color: grey;
+}
+.produktliste h2 {
+    font-size: 2vw;
+    display: inline-block;
+    border: 1.5px solid;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+.produktliste {
+    margin-right: 1vw;
+    text-align: center;
 }
 .produktliste .pris {
     color: indianred;
@@ -114,7 +159,11 @@ span.text-content {
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
 }
+footer .row {
+    background-color: dimgrey;
+}
 footer h5 {
     font-size: 0.87vw !important;
     text-align: right;
+    color: white;
 }
